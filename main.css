@@ -9,10 +9,23 @@
         opacity:100%;
     }
 }
+@keyframes open-dropdown
+{
+    0%
+    {
+        opacity:0;
+    }
+    100%
+    {
+        opacity:1
+    }
+}
 
 body
 {
     background-color:#fed;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14pt;
 }
 
 h1#main
@@ -93,8 +106,6 @@ div.navigation div.dropdown div.content
     min-width:200px;
     box-shadow:0 8px 16px 0 rgba(0,0,0,0.4);
     z-index:1;
-    height:0;
-    transition:height 0.2s;
 }
 
 div.navigation div.dropdown div.content a:hover
@@ -104,12 +115,11 @@ div.navigation div.dropdown div.content a:hover
 
 div.navigation div.dropdown:hover div.content
 {
-    height:auto;
     display:block;
+    animation:open-dropdown 0.2s;
 }
 
 div.main
 {
-    font-size:14pt;
     margin:50px 10px;
 }
