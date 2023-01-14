@@ -1,0 +1,104 @@
+@keyframes blinking_cursor
+{
+    0%
+    {
+        opacity:0;
+    }
+    40%
+    {
+        opacity:100%;
+    }
+}
+
+body
+{
+    background-color:#fed;
+}
+
+h1#main
+{
+    font-family:'Courier New', Courier, monospace;
+    margin:0;
+    padding:5px;
+    background-color:#000;
+    color:#0f0;
+    display:block;
+}
+
+h1::after
+{
+    content:"_";
+    color:#0f0;
+    animation: blinking_cursor 1.2s steps(1) infinite;
+}
+
+div.navigation *
+{
+    font-family:'Courier New', Courier, monospace;
+    font-size:14pt;
+}
+
+div.navigation
+{
+    overflow:hidden;
+    background-color:black;
+}
+
+div.navigation a
+{
+    float:left;
+    color:#0f0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+div.navigation div.dropdown
+{
+    float:left;
+    overflow:hidden;
+}
+
+div.navigation div.dropdown a.main
+{
+    float:none;
+    box-sizing: border-box;
+    display:inline-block;
+}
+
+div.navigation a:hover, div.navigation div.dropdown:hover a.main
+{
+    background-color:green;
+}
+
+div.navigation div.dropdown div.content a
+{
+    float:none;
+    color:black;
+    display:block;
+    text-decoration: none;
+    text-align: left;
+}
+
+div.navigation div.dropdown div.content
+{
+    display:none;
+    position:absolute;
+    background-color:#afa;
+    min-width:200px;
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.4);
+    z-index:1;
+    height:0;
+    transition:height 0.2s;
+}
+
+div.navigation div.dropdown div.content a:hover
+{
+    background-color:#8c8;
+}
+
+div.navigation div.dropdown:hover div.content
+{
+    height:auto;
+    display:block;
+}
