@@ -1,9 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <link href="style.css" rel="stylesheet/css"></link>
+        <!-- All HTML headers here -->
+        <title>Sudo A+</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css" />
     </head>
 <body>
+
+    <!-- Title to the website -->
+    <h1>Sudo A+</h1>
+    
+    <!-- Buttons to open each members' profile -->
+    <div class="team-members">
+        <button id="charlie" class="member">Charlie</button>
+        <button id="sunggil" class="member">Sunggil</button>
+    </div>
+
+    <!-- This is the block for Charlie. -->
+    <dialog class="charlie">
+        <form method="dialog">
+            <p>
+                <label>Charlie Morrison - S3658449</label>
+            </p>
+            <p>
+                I'm from Victoria, Australia and currently live in New South Wales, Australia. I am 24 years old. I moved to New South Wales because I currently work in IT within the Department of Defence and I am moving state every few years. I have lived in every major city on the East coast, Brisbane, Sydney, Canberra, Melbourne, and Hobart.  
+    I always get asked, "What is the best city?" or "Which is your favourite city to live in?" 
+    I think the answer to this is simple, every city has its own lifestyle, and the only way to answer that question is to experience it for yourself. I think every place in Australia sits on an even level, and every person within the country is individually fantastic - making every city individually fantastic. 
+    I speak English and Swedish, but my Swedish is very poor since I haven't used it for over 8 years. I intend on learning another language, but I am currently stumped by the idea of do I learn what I'm interested in; Italian, or do I learn what would be more useful; Mandarin. 
+    Additionally, you may have noticed, I love learning new things and excelling. I try to put 100% into everything I do. The brain was made to be used; why waste the opportunity we have? 
+            </p>
+            <div><button id="charlie" class="close" value="quit-charlie">Close</button></div>
+        </form>
+    </dialog>
+
+    <!-- This is the block for Sunggil. -->
+    <dialog class="sunggil">
+        <form method="dialog">
+            <p>
+                <label>Sunggil Kahn - S3992011</label>
+            </p>
+            <p>
+                My background is South Korean, and I moved to Australia when I was 5. I enjoy playing video games on my pc with my mates and also love making music and listening to music. My interest in IT began as early as I began playing games and also when helping out my friends and peers with problems regarding technology. I do not have any formal IT experience other than my own diy projects completed via YouTube videos whether that was optimizing my PC setup to run hard to run games to hacking simple phone games so I had millions of coins. My team went with the name SudoA+ courtesy of Charlie as it was related to IT and had a meaning where it allows you to temporarily elevate your current user account to have root privileges and in this case our grade to an A+. 
+            </p>
+            <div><button id="charlie" class="close" value="quit-charlie">Close</button></div>
+        </form>
+    </dialog>
+
+    <!-- Load in the JavaScript document -->
+    <script src="script.js" type="text/javascript"></script>
 
 </body>
 </html>
