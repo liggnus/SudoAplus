@@ -24,6 +24,11 @@ h1#main
     color:#0f0;
     display:block;
 }
+h1 a
+{
+    text-decoration: none;
+    color:#0f0;
+}
 
 h1::after
 {
@@ -101,4 +106,10 @@ div.navigation div.dropdown:hover div.content
 {
     height:auto;
     display:block;
+}
+
+div.main
+{
+    font-size:14pt;
+    margin:50px 10px;
 }
