@@ -86,6 +86,7 @@ div.team-members button:hover
     transform:scale(1.2,1.2) translateY(-20px);
     box-shadow: 0 20px 20px -10px rgba(0,0,0,0.2);
     transition:transform 0.2s, box-shadow 0.2s, border-radius 0.2s;
+    cursor:pointer;
 }
 
 dialog

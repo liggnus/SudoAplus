@@ -1,4 +1,5 @@
 nav = `<div class="navigation">
+            <a href="index.html#loaded">Homepage</a>
             <div class="dropdown">
                 <a href="team-profile.html" class="main">Team Profile</a>
                 <div class="content">
@@ -16,10 +17,10 @@ nav = `<div class="navigation">
             <div class="dropdown">
                 <a href="tech.html" class="main">Technologies</a>
                 <div class="content">
-                    <a href="tech/av.html">Automatic Vehicles</a>
-                    <a href="tech/robot.html">Robots</a>
-                    <a href="tech/css.html">Clouds, Servers, and Services</a>
-                    <a href="tech/crypto.html">Cryptocurrencies</a>
+                    <a href="tech-av.html">Automatic Vehicles</a>
+                    <a href="tech-robot.html">Robots</a>
+                    <a href="tech-css.html">Clouds, Servers, and Services</a>
+                    <a href="tech-crypto.html">Cryptocurrencies</a>
                 </div>
             </div>
             <div class="dropdown">
