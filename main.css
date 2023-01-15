@@ -121,5 +121,8 @@ div.navigation div.dropdown:hover div.content
 
 div.main
 {
-    margin:50px 10px;
+    position:relative;
+    left:50%;
+    margin-left:-400px;
+    max-width:800px;
 }
