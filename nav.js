@@ -26,10 +26,14 @@ nav = `<div class="navigation">
             <div class="dropdown">
                 <a href="project.html" class="main">Project Idea</a>
                 <div class="content">
-                    <a href="project.html#seg1">Segment 1</a>
-                    <a href="project.html#seg2">Segment 2</a>
-                    <a href="project.html#seg3">Segment 3</a>
+                    <a href="project.html#Overview">Overview</a>
+                    <a href="project.html#Motivation">Motivation</a>
+                    <a href="project.html#Description">Description</a>
+                    <a href="project.html#ToolsTech">Tools & Tech</a>
+                    <a href="project.html#Skills">Skills</a>
+                    <a href="project.html#Outcome">Outcome</a>
                 </div>
             </div>
+            <a href="references.html">References</a>
         </div>`;
 document.write(nav);
