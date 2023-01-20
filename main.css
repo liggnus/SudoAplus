@@ -152,8 +152,13 @@ div.main
     margin-left:-400px;
     max-width:900px;
 }
+img
+{
+    float:left;
+}
 img.tech-image
 {
+    float:none;
     display:block;
     border-radius:12px;
     box-shadow:0 8px 16px 0 rgba(0,0,0,0.4);
