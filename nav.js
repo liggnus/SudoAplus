@@ -34,6 +34,7 @@ nav = `<div class="navigation">
                     <a href="project.html#Outcome">Outcome</a>
                 </div>
             </div>
+            <a href="reflection.html">Group Reflection</a>
             <a href="references.html">References</a>
         </div>`;
 document.write(nav);
