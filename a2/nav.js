@@ -1,5 +1,6 @@
 nav = `<div class="navigation">
-            <a href="index.html#loaded">Homepage</a>
+            <a href="../index.html">Homepage</a>
+            <a href="index.html#loaded">About Us</a>
             <div class="dropdown">
                 <a href="team-profile.html" class="main">Team Profile</a>
                 <div class="content">
