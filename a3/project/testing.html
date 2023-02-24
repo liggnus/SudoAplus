@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <!-- All HTML headers here -->
+        <title>Sudo A+</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../../main.css" />
+    </head>
+    <body>
+
+        <!-- Title to the website -->
+        <h1 id="main"><a href="../index.html">sudo a+</a></h1>
+
+        <!-- Navigation bar.
+        1. the 'title' of the dropdown needs to class 'main' in order to work.
+        2. all dropdown links are required to be within div with class 'content'.
+        -->
+        <script src="../nav.js"></script>
+
+        <div class="main">
+            <p>Testing is an important part of the development process, to be executed during development and on completion. 
+
+                Each separate deliverable that makes up our final product needs to be tested for functionality, and the integration of each deliverable also requires testing. During development regular updates form the GitHub will ensure our coding is correct. This part is easy to test- if the website looks as it should and, links work etc. the test is successful. 
+                
+                Testing of different functionality should be conducted throughout the project, as separate deliverables are created, as well as in depth testing end to end on completion of the project as a whole. </p>
+            <p>
+                A test plan should include test scenarios for each deliverable, to test happy path and unhappy path scenarios. The tests are successful if the expected outcome is reached and documented. The number of test scenarios would be extensive and would include: 
+                <ul>
+                    <li>Home Page 
+                        <ul>
+                            <li>Navigate to home screen </li>
+                            <li>Navigate to each section of the website from Home screen </li>
+                            <li>Navigate from each section of the webpage back to home screen </li>
+                        </ul>
+                    </li>
+                    <li>Crop/Location Specific weather forecasts – testing for one crop-location combination 
+                        <ul>
+                            <li>Filter Wheat crop in Location Bendigo, timeframe one week<br/>
+                                Expected outcome: weather forecast for Launceston displayed, correct timeframe displayed, relevant advice for strawberry farming displayed </li>
+                            <li>Filter Wheat crop in Location Bendigo, timeframe one month<br>
+                                Expected outcome: weather forecast for Launceston displayed, correct timeframe displayed, relevant advice for strawberry farming displayed </li>
+                            <li>Filter Strawberry crop in Location Launceston, timeframe one year<br>
+                                Expected outcome: error message displayed ‘forecast is not available for this date range’ </li>
+                            <li>Filter for a crop that is unavailable on the website<br>
+                                Expected outcome: crop name is greyed out and cannot be selected (for example)</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Commodity Price data – testing for one commodity 
+                        <ul>
+                            <li>Search for commodity price data on Wheat in Australia <br>
+                                Expected outcome: Current price of Wheat is displayed at top of screen. Icon of wheat is displayed. Graph of trend over 30 days displayed at the bottom of screen </li>
+                            <li>Change filter of graph to show trend in 7 days <br>
+                                Expected Outcome: graph updates to show trend over last 7 days  </li>
+                            <li>Commodity Price data is displayed for Wheat. Price change of Wheat takes place. Observe the website. <br>
+                                Expected Outcome: User gets a warning message at top of screen ‘Commodity process have changed, refresh for new data’. When refreshed the website displays new data for Price of wheat </li>
+                        </ul>
+                    </li>
+                    <li>Forum
+                        <ul>
+                            <li>User posts text to forum <br>
+                                Expected outcome: Text post is visible to other forum users </li>
+                            <li>User posts image to forum <br>
+                                Expected outcome: Image post is visible to other forum users </li>
+                            <li>User shares a link to forum <br>
+                                Expected outcome: Post including link is visible to other forum users </li>
+                            <li>User edits existing forum post <br>
+                                Expected outcome: User sees updated post on forum </li>
+                            <li>User deletes existing forum post <br>
+                                Expected outcome: Forum post disappears from Forum page </li>
+                        </ul>
+                    </li>
+                    <li>User Manuals
+                        <ul>
+                            <li>User clicks link to Manual XYZ <br>
+                                Expected outcome: User is directed to manual XYZ in a new window </li>
+                            <li>User uses search term ‘polyethylene piping’ <br>
+                                Expected outcome: The links to the following user manuals are displayed: HIJK, LMNO, CDEF, TUVW </li>
+                            <li>User uses search term ‘Mary Poppins’ <br>
+                                Expected outcome: Message Displayed: ‘We cannot display any manuals using those search terms, please try a different search’ </li>
+                        </ul>
+                    </li>
+                </ul>
+            </p>
+            <p>
+                Each of the identified test scenarios should be tested first by the development team, to identify and fix any defects before testing with external parties. Next, a user who is not the end user should retest each scenarios. This retest could be done by a third party or by our customer. Finally, user acceptance testing needs to be carried out by members of the general public. No skill set is required, but  it would be ideal to get a large group of testers to make the job less labour intensive. These users could be sourced through a third party, or we could make an offer to the public such as a reward or incentive for participation. Required end user testing resources is approximately 40 hours, allowing one hour to conduct a test of each scenario, which many scenarios required for each deliverable of the final product. 
+            </p>
+        </div>
+    </body>
+</html>

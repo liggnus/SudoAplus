@@ -1,14 +1,16 @@
 nav = `<div class="navigation">
             <a href="../index.html">Homepage</a>
+            <a href="/a3/index.html">Team Profile</a>
             <div class="dropdown">
-                <a href="team-profile.html" class="main">Team Profile</a>
+                <a href="/a3/project/index.html" class="main">Project</a>
                 <div class="content">
-                    <a href="team-profile.html#Charlie">Charlie</a>
-                    <a href="team-profile.html#Katherine">Katherine</a>
-                    <a href="team-profile.html#Mihail">Mihail</a>
-                    <a href="team-profile.html#Panagiotis">Panagiotis</a>
-                    <a href="team-profile.html#Samith">Samith</a>
-                    <a href="team-profile.html#Sunggil">Sunggil</a>
+                    <a href="/a3/project/overview.html">Overview</a>
+                    <a href="/a3/project/plansprogress.html">Plans and Progress</a>
+                    <a href="/a3/project/scopelimits.html">Scope and Limits</a>
+                    <a href="/a3/project/toolstech.html">Tools and Technology</a>
+                    <a href="/a3/project/testing.html">Testing</a>
+                    <a href="/a3/project/risks.html">Risks</a>
+                    <a href="/a3/project/group.html">Group Processes and Communications</a>
                 </div>
             </div>
         </div>`;
