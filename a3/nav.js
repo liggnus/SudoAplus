@@ -1,6 +1,8 @@
 nav = `<div class="navigation">
             <a href="../index.html">Homepage</a>
             <a href="/SudoAplus/a3/index.html">Team Profile</a>
+            <a href="/SudoAplus/a3/jobskill.html">Jobs and Skills</a>
+            <a href="/SudoAplus/a3/timeline.html">Timeline</a>
             <div class="dropdown">
                 <a href="/SudoAplus/a3/project/index.html" class="main">Project</a>
                 <div class="content">
