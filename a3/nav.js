@@ -15,5 +15,6 @@ nav = `<div class="navigation">
                     <a href="/SudoAplus/a3/project/group.html">Group Processes and Communications</a>
                 </div>
             </div>
+            <a href="/SudoAplus/a3/reflection.html">Reflection</a>
         </div>`;
 document.write(nav);
